@@ -18,7 +18,7 @@ body {
 
 
 .slider {
-    width: 55rem;
+    width: 40rem;
     height: 30rem;
     overflow: hidden;
     border: 0.1rem solid white;
@@ -27,17 +27,16 @@ body {
     flex-direction: row;
 }
 
-.slide {
-    width: 100%;
+.content {
+    width: 400%;
     height: 22rem;
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    border: 0.3rem solid red;
+    
+
 }
 
 .navigation {
-    width: 13.75rem;
+    width: 10rem;
     height: 3.75rem;
     border: 0.3rem solid black;
     display: flex;
@@ -46,7 +45,7 @@ body {
 }
 
 .meme-description {
-    width: 31.25rem;
+    width: 30rem;
     height: 3.75rem;
     display: flex;
     justify-content: start;
@@ -76,5 +75,18 @@ body {
 }
 
 input[name="button"] {
+    
     visibility: hidden;
+}
+
+.img-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+img {
+    width: 40rem;
+    height: 22rem;
 }
